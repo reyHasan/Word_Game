@@ -111,9 +111,9 @@ useEffect(() => {
     {!gameOver && <>
 
       <div className='grid grid-cols-3'>
-        <div className='text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Question</h3> <h3>{number}/5 </h3></div>
-        <div className='text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Time</h3> <h3>{count} </h3></div>  
-        <div className='text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Score</h3> <h3>{score+speedBonus} </h3></div>
+        <div className='text-2xl md:text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Question</h3> <h3>{number}/5 </h3></div>
+        <div className='text-2xl md:text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Time</h3> <h3>{count} </h3></div>  
+        <div className='text-2xl md:text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2'> <h3>Score</h3> <h3>{score+speedBonus} </h3></div>
       </div>
      
       <div className='mt-4 text-3xl font-poppins flex flex-col items-center border border-blue-200 p-1 px-2 lg:px-8 gap-2' onClick={()=>setIsTimerPaused(prev=> !prev)}> {isTimerPaused? <FaPlay/> : <FaPause/> } </div>

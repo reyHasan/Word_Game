@@ -26,7 +26,7 @@ const header = () => {
                  {!display? <FaBars onClick={()=>setDisplay(prevDisplay=> !prevDisplay)} className='text-blue-100'/> : <RxCross1 onClick={()=>setDisplay(prevDisplay=> !prevDisplay)} className='text-blue-100'/>} 
                 </div>
          
-               <div className=  {` ${display? 'flex' : 'hidden'} p-6 bg-black text-white absolute top-30 right-0 mx-4 my-2 
+               <div className=  {` ${display? 'flex' : 'hidden'} p-6 bg-blue-900 text-white absolute top-30 right-0 mx-4 my-2 
                min-w-[140px] rounded-xl sidebar z-10`} 
                     onClick={()=>setDisplay(prevDisplay=> !prevDisplay)}
                     aria-controls="example-fade-text"
@@ -34,9 +34,9 @@ const header = () => {
                  > 
 
                 <ul className='flex flex-col gap-8 px-[20px]' id="example-fade-text">
-                   <li className=''>Home</li>
-                   <li className=''>About</li>
-                   <li className=''>Contact</li>
+                   <a className=''>Home </a> 
+                   <a >About </a> 
+                   <a href='https://www.linkedin.com/in/abdurrahman-adedokun-ab575115a/'> Contact</a> 
                 </ul>
         
             </div>
