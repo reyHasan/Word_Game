@@ -18,7 +18,7 @@ const header = () => {
           
            <div className='hidden gap-6 lg:flex items-center justify-between mr-6 text-blue-100 text-1xl font-poppins'> 
                    <a className=''>Home </a> 
-                   <a >About The Game</a> 
+                   <a href='https://www.linkedin.com/posts/abdurrahman-adedokun-ab575115a_created-a-react-app-to-save-myself-from-disgrace-activity-7114146836621193216-2FPO?utm_source=share&utm_medium=member_desktop'>About The Game</a> 
                    <a href='https://www.linkedin.com/in/abdurrahman-adedokun-ab575115a/'> Contact Developer</a> 
             </div>
 
@@ -35,7 +35,7 @@ const header = () => {
 
                 <ul className='flex flex-col gap-8 px-[20px]' id="example-fade-text">
                    <a className=''>Home </a> 
-                   <a >About </a> 
+                   <a href='https://www.linkedin.com/posts/abdurrahman-adedokun-ab575115a_created-a-react-app-to-save-myself-from-disgrace-activity-7114146836621193216-2FPO?utm_source=share&utm_medium=member_desktop'> About </a> 
                    <a href='https://www.linkedin.com/in/abdurrahman-adedokun-ab575115a/'> Contact</a> 
                 </ul>
         
